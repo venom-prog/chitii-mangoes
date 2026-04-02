@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .contact-info { margin-bottom: 20px; }
+        .map { width: 100%; height: 300px; }
+        form { display: flex; flex-direction: column; max-width: 400px; }
+        input, textarea { margin-bottom: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        button { padding: 10px; border: none; border-radius: 5px; background-color: #28a745; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div class="contact-info">
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/15555555555">Click here to chat with us!</a></p>
+        <p><strong>Location:</strong></p>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096483!2d144.95373521531723!3d-37.81720997975155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f0e4cf9%3A0x504567f8ce64a77c!2sYour%20Business%20Name!5e0!3m2!1sen!2sus!4v1537949264912" allowfullscreen></iframe>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="business-details">
+        <p><strong>Company Name:</strong> Chitii Mangoes</p>
+        <p><strong>Address:</strong> 123 Mango St, Fruitland, FL 12345</p>
+        <p><strong>Contact Number:</strong> (123) 456-7890</p>
+    </div>
+</body>
+</html>
